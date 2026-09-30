@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup_ABC_Music</title>
+</head>
+<body>
+    <h1>Registrati ABC Music</h1>
+    <form style="display: block;"onsubmit="alert('Modulo inviato correttamente. Riceverai una mail di conferma.')">
+        <div style="display:block" >
+
+            <span style="display: inline-block;">
+                <label style="display: block;">Nome</label>
+               <input type="text" placeholder="Nome">
+            </span>
+
+             <span style="display: inline-block;">
+                <label style="display: block;">Cognome</label>
+               <input type="text" placeholder="Cognome">
+            </span>
+        </div>
+        <div>
+
+            <span>
+                <label>E-mail</label>
+                <input type="mail" style="display: block";placeholder="Indirizzo e-mail">
+            </span>
+
+            <span style="display: inline-block;">
+                <label style="display: block;">Password</label>
+                <input type="password" placeholder="Password" >
+                <input type="password" placeholder="Ripeti password">
+            </span>
+
+            <span>
+                <label style="display: block;">Data di nascita</label>
+                <input type="date" style="display: block;" placeholder="Data di nascità">
+            </span>
+
+            <span>
+                <label style="display: block;">Cellulare</label>
+                <input type="number" style="display: block;" placeholder="Cellulare">
+            </span>
+        </div>
+        <div>
+                <h3>Facci conoscere i tuoi gusti per un esperienza personalizzata</h3>
+                <span>
+                    <input type="checkbox">
+                    <label>Pop</label>
+                </span>
+                <span>
+                    <input type="checkbox">
+                    <label>Rock</label>
+                </span>
+                <span>
+                    <input type="checkbox">
+                    <label>Urban/Hip Hop</label>
+                </span>
+                <span>
+                    <input type="checkbox">
+                    <label>Elettronica</label>
+                </span>
+                <span>
+                    <input type="checkbox">
+                    <label>Classica</label>
+                </span>
+                <span>
+                    <input type="checkbox">
+                    <label>Jazz e Soul</label>
+                </span>
+        </div>
+        <div>
+            <div>
+                <h3>Termini e condizioni</h3>
+                <input type="checkbox">
+                <label>Accetto <a href="termini_e_condizioni.html">Termini e condizioni</a>.</label>
+            </div>
+             <div>
+                <input type="radio" name="marketing" value="0">
+                <label>Non voglio essere contatato per offerte o promozioni.</label>
+             </div>
+             <div>
+                <input type="radio" name="marketing" value="1">
+                <label>Desidero essere contato per offerte e promozioni.</a></label>
+             </div>
+        </div>
+        <button type="submit">Invia Registrazione</button>
+    </form>
+</body>
+</html>
